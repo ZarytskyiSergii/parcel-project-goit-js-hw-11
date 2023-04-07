@@ -2,8 +2,8 @@ const Mustache = require('mustache');
 import Notiflix from 'notiflix';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-import photoCardTemplate from '../src/js/markup-template';
-import PhotoApiService from '../src/js/photo-api-service';
+import photoCardTemplate from '../src/template/markup-template';
+import PhotoApiService from '../src/template/photo-api-service';
 
 const photoCards = document.querySelector('.gallery');
 const searchForm = document.querySelector('#search-form');
